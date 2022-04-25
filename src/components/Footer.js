@@ -1,13 +1,8 @@
-import "./Foot.css";
-
+import "./Footer.css";
 const Footer = () => {
     return (
-        <div id="hello">
-            <p>
-                Made with <span className="bold">React</span> at
-                <span className="bold"> le Reacteur</span> by
-                <span className="bold"> Inthone</span>
-            </p>
+        <div className="footer">
+            <p>Made with React at Le Reacteur by Inthone</p>
         </div>
     );
 };
